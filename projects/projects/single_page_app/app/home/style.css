@@ -1,0 +1,272 @@
+/*Form the home page*/
+body{
+    background-color: rgb(211, 4, 4);
+}
+.nav{
+     display: flex;
+     background-color: whitesmoke;
+     position: fixe;    
+    
+}
+.settings{
+    display: block;
+    margin-left: auto;
+    padding: 5px;
+              
+}
+.color{
+    background-color: blac;
+}
+.sidebar{
+    width: 175px;
+    background-color: rgb(32, 30, 30);
+    height: 800px;
+    position: fixed;
+}
+.links>li{
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all.3s;
+}
+#logout{
+    color:  rgb(189, 33, 33);
+    transition: all.5s;
+}
+#logout:hover{
+    color:  white;
+    text-decoration: none;
+    transform: scale(2);
+}
+.links>li:hover{
+    color: rgb(3, 78, 78);
+}
+.logo{
+     margin-left: 115px;
+    font-family:'Rampart One';
+    font-size: 30px;
+}
+.sidbarlinks-container{
+    display: flex;
+}
+.contact-sidebar{
+    margin-left: auto;
+    height: 500px;
+    background-color: rgb(22, 68, 68);
+    transition: all.5s;
+    position: fixe;
+    
+}
+.contact-sidebar{
+    display:none;
+}
+.show-sidebar.contact-sidebar{
+    display: block;
+}
+#user{
+    transition: all.5s;
+    cursor: pointe;
+}
+#user:hover{
+     color: darkblue;
+     transform:scale(2);
+}
+#sett{
+    transition: all.5s;
+    cursor: pointer;
+}
+#sett:hover{
+     color:rgb(110, 190, 5);
+     transform:scale(2);
+}
+#bell{
+    transition: all.5s;
+    cursor: pointer;
+}
+#bell:hover{
+    color:rgb(253, 0, 63);
+    transform:scale(2);
+}
+
+/*Displaying content*/
+
+.par1{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text1 .par1{
+    display: block;
+}
+.par2{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text2 .par2{
+    display: block;
+}
+.par3{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text3 .par3{
+    display: block;
+}
+.par4{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text4 .par4{
+    display: block;
+}
+.par5{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text5 .par5{
+    display: block;
+}
+.par6{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text6 .par6{
+    display: block;
+}
+.par7{
+    display:none;
+    margin-left: 300px;
+    margin-right: 10px;
+    text-align: justify;
+    border: 1px solid  white;
+    border-radius:6px;
+    background-color: white;
+}
+.show-text7 .par7{
+    display: block;
+}
+.content{
+    background-color: thistl;
+    overflow: auto;
+    margin-left:1000 px;
+
+}
+.header{
+    text-decoration: underline;
+    text-shadow: 1px 1px solid green;
+    text-align: center;
+    color: indianred;
+    transition: all.5s;
+}
+.header:hover{
+    color: magenta;
+    transform: scale(2);
+}
+
+/*Updating content*/
+
+.form-container{
+      margin-left: 300px;
+     display: flex;     
+           
+}
+#topic{
+      margin-right:px;
+      margin-left:px;
+}
+#text{
+    width:px; 
+    padding:px;
+
+}
+
+/*SETTINGS*/
+
+.text-color{
+    color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    transition: all.5s;
+}
+.show-set1 .text-color{
+    display: block;
+     
+}
+.change-color .text-color{
+    color: green;
+}
+.text-color:hover{
+    color: rgb(11, 175, 38);
+     
+}
+.text-bg{
+    color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    transition: all.5s;
+}
+.show-set2 .text-bg{
+    display: block;
+}
+.text-bg:hover{
+    color: rgb(11, 175, 38);
+     
+}
+.text-dc{
+    color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    transition: all.5s;
+}
+.show-set3 .text-dc{
+    display: block;
+}
+.text-dc:hover{
+    color: rgb(11, 175, 38);
+     
+}
+.defaultText{
+    margin-left: 300px;
+    margin-right: 10px;
+    display: block;
+
+}
+.hidedtext .defaultText{
+    display: none;
+}
+

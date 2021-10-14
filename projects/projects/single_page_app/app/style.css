@@ -1,0 +1,69 @@
+
+
+/*Landing page*/
+
+.container1{
+    padding-top: 20px;
+
+}
+
+body{
+    background-image: url(http://localhost:9090/dashboard/my-projects/single_page_app/resources/images/home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+.banner{
+    padding-top:-20px;
+    text-align: center;
+}
+.btn{
+    width: 250px;
+    border: 1px solid white;
+     
+}
+.par{
+    font-family:'Rampart One';
+    font-weight: bold;
+    font-size: 30px;
+}
+.par2{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Login page*/
+
+
+.container2{
+    padding-top: 200px;
+    
+    
+}
+.login-container{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 400px;
+    background-color: rgb(105, 26, 26);
+    padding-bottom: 10px;
+     
+}
+#user{
+    padding: 5px;
+    width: 300px;
+}
+#heading{
+    font-weight: bold;
+    color: rgb(45, 45, 112);
+}
+.body{
+    background-image: url(http://localhost:9090/dashboard/my-projects/single_page_app/resources/images/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+ 

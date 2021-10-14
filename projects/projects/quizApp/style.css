@@ -1,0 +1,211 @@
+
+/*
+========================================
+Styling Quiz App Container
+========================================
+
+*/
+
+.container{
+     display: fleX;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+     padding: 20px;
+}
+.image{   
+    object-fit: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img3.png");
+}
+
+.intro{
+    color: red;
+}
+.defaultText{
+     
+    display: block;
+}
+.hideText .defaultText{
+    display: none;
+}
+ 
+h2{
+    margin-bottom: 10px;
+    color: red;
+    text-shadow:1px 1px green;
+    font-family: monospace;
+    position: relative;
+}
+
+/*
+========================================
+ Styling the   Quiz App Elements
+========================================
+
+*/
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(248, 188, 188);
+    font-weight: bold;
+}
+.sec{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(59, 19, 19);
+    font-weight: bold;
+}
+#qstn1{
+    padding: 5px;
+    width:  90%;
+    background-color:  rgb(255, 255, 255);
+    border-style: none none solid none;
+    box-shadow: none;
+    outline: none;
+}
+#qstn1:focus{
+    border-color: gold;
+    background-color: rgb(215, 233, 215);
+}
+#qstn2:focus{
+    border-color: gold;
+    background-color: rgb(215, 233, 215);
+}
+#qstn3:focus{
+    border-color: gold;
+    background-color: rgb(215, 233, 215);
+}
+#qstn4:focus{
+    border-color: gold;
+    background-color: rgb(215, 233, 215);
+}
+#qstn5:focus{
+    border-color: gold;
+    background-color: rgb(215, 233, 215);
+}
+#qstn2{
+    padding: 5px;
+    width:  90%;
+    background-color:  rgb(255, 254, 254);
+    border-style: none none solid none;
+    box-shadow: none;
+    outline: none;
+}
+#qstn3{
+    padding: 5px;
+    width:  90%;
+    background-color:rgb(255, 254, 254);
+    border-style: none none solid none;
+    box-shadow: none;
+    outline: none;
+}
+#qstn4{
+    padding: 5px;
+    width:  90%;
+    background-color: rgb(255, 255, 255);
+    border-style: none none solid none;
+    box-shadow: none;
+    outline: none;
+}
+#qstn5{
+    padding: 5px;
+    width:  90%;
+    background-color:  rgb(255, 255, 255);
+    border-style: none none solid none;
+    box-shadow: none;
+    outline: none;
+}
+.btns{
+    display: flex;
+}
+#btn1{
+    padding: 5px;
+    width:  50%;
+}
+#btn2{
+    padding: 5px;
+    width:  50%;
+    margin-left: 20%;
+    
+    
+}
+
+span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#answer{
+    color: rgb(9, 32, 245);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
+/*
+========================================
+Showing and hidding correct and error messages
+========================================
+
+*/
+
+/*SECTIONT A*/
+
+.message1{
+    color: red;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: none;
+    
+}
+
+.message2{
+    color:rgb(34, 247, 34);
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: none;
+}
+.message3{
+    color:rgb(231, 11, 103);
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: none;
+}
+.show1 .message1{
+    color: red;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+.show2 .message2{
+    color:rgb(27, 255, 27);
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+.show3 .message3{
+    color:rgb(255, 0, 157);
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+
+ 
+/*
+========================================
+ The end of stylings
+========================================
+
+*/
+ 
+ 

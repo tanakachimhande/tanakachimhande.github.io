@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-image: url("images/bg-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.preloader{
+  background: black url("images/preloader.gif") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+    
+}
+ 
+
+.disappear{
+  animation: vanish 6s forwards;
+
+}
+@keyframes vanish{
+  100%{
+    display: none;
+    opacity: 0;
+
+  }
+}
+.navbar {
+  background-color: #1d1e22;
+  color: rgb(224, 18, 18);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pointer {
+  float: left;
+  color: red;
+}
+.navitem {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px 20px;
+  font-size: 20px;
+  transition: all 0.5s ease-in;
+  position: relative;
+}
+.navitem > ul {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 160px;
+  margin-top: 20px;
+  display: none;
+  border: 1px solid white;
+  border-radius: 0px 15px 6px 15px;
+}
+.navitem > ul li a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  list-style: none;
+}
+.navitem:hover ul {
+  display: block;
+}
+.navitem > .services {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  display: none;
+  border: 1px solid white;
+  border-radius: 0px 15px 6px 15px;
+}
+.navitem > .services li a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  list-style: none;
+}
+.navitem:hover .services {
+  display: block;
+}
+
+.navitem a {
+  transition: all 0.5s;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 0 rgb(153, 155, 160) ;
+}
+.navitem a:hover {
+  box-shadow:inset 0  200px rgb(128, 130, 134);
+  color: rgb(6, 64, 255);
+}
+.toggler {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-top: 7px;
+  display: none;
+}
+#logs {
+  max-width: 100%;
+  height: 70px;
+  object-fit: cover;
+  position: relative;
+}
+.logo{
+   position: relative;
+}
+.logo-expl{
+  position: absolute;
+  border-radius: 3px;
+  width: 300px;
+  height: 3vh;
+  text-align: center;
+  background: white;
+  color: black;
+  font-family: monospace;
+  visibility: hidden;
+  top: 100%;
+  margin-left: -180px;
+
+}
+.logo:hover> .logo-expl{
+  visibility: visible;
+}
+
+.clock {
+  color: rgb(255, 0, 0);
+  float: right;
+  margin-top: 90px;
+  width: 180px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.text{
+  list-style: none;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  .navitem:hover .services {
+    display: none;
+  }
+  .navitem:hover ul {
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .toggler {
+    display: block;
+  }
+  #text {
+    width: 90px;
+    border: none;
+  }
+  .navitem {
+    display: block;
+  }
+  .navlist {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .logo {
+    padding-right: 100px;
+  }
+  .clock {
+    border: none;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  .toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .toggler {
+    display: block;
+  }
+  #text {
+    width: 90px;
+    border: none;
+  }
+  .navitem {
+    display: block;
+  }
+  .navlist {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .logo {
+    padding-right: 100px;
+  }
+  .clock {
+    border: none;
+  }
+  .navitem:hover .services {
+    display: none;
+  }
+  .navitem:hover ul {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+  }
+  .navitem {
+    display: inline-block;
+  }
+  .navlist {
+    display: block;
+  }
+  .toggle {
+    display: none;
+  }
+  .navitem > .services {
+    display: none;
+  }
+}
+@media only screen and (max-width: 276px) {
+  #text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navitem:hover .services {
+    display: block;
+  }
+  .navitem:hover ul {
+    display: block;
+  }
+}

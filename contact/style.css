@@ -1,0 +1,377 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #393f4d;
+  background-attachment: fixed;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: gray;
+  height: 22vh;
+}
+.app {
+  color: rgb(34, 144, 34);
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+.app:hover {
+  color: rgb(151, 255, 151);
+}
+.tweeter {
+  color: rgb(8, 31, 238);
+  margin-left: 15px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.tweeter:hover {
+  color: rgb(0, 0, 109);
+}
+.fb {
+  color: rgb(34, 36, 144);
+  margin-left: 15px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.fb:hover {
+  color: darkblue;
+}
+.git {
+  color: rgb(8, 8, 8);
+  margin-left: 15px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.git:hover {
+  color: rgb(53, 53, 71);
+}
+.footer {
+  display: flex;
+  background-color: #1d1e22;
+  color: white;
+  width: 100%;
+  height: 12vh;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
+}
+#link1 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link1:hover {
+  color: white;
+}
+#link2 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link2:hover {
+  color: white;
+}
+#link3 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link3:hover {
+  color: white;
+}
+#link4 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link4:hover {
+  color: white;
+}
+#link5 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link5:hover {
+  color: white;
+}
+#link6 {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+#link6:hover {
+  color: white;
+}
+span {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-form {
+  background-color: white;
+  border: 1px solid green;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 200px;
+  width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.quote {
+  margin-right: auto;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 28px;
+  font-family: monospace;
+  margin-left: 10px;
+  color: #d4d4dc;
+}
+h4 {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+}
+.qte {
+  font-size: 38px;
+  color: #d4d4dc;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#name {
+  width: 400px;
+  padding: 11px;
+  box-shadow: none;
+}
+#name:focus {
+  border-color: rgb(125, 250, 0);
+  box-shadow: none;
+  outline: none;
+}
+#email {
+  width: 400px;
+  padding: 11px;
+  box-shadow: none;
+}
+#email:focus {
+  border-color: rgb(125, 250, 0);
+  box-shadow: none;
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  width: 100%;
+  padding: 11px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset 0 0 0 0 rgb(80, 75, 75);
+  font-size: 23px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.btn:hover {
+  box-shadow:inset 380px  380px 380px 380px rgb(63, 57, 57);
+  color: white;
+}
+.arrow1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.arrow2 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .arrow {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    height: 18vh;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .contact-form {
+    width: 40%;
+    margin-right: 100px;
+  }
+  .arrow {
+    display: none;
+  }
+  .arrow {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1346px) {
+  .contact-form {
+    width: 38%;
+    margin-right: 200px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .contact-form {
+    width: 100%;
+    margin-left: 0px;
+     
+  }
+  #email{
+    width: 280px;
+    margin-left: 8px;
+  }
+  #name{
+    width: 280px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 280px;
+    margin-left: 8px;
+
+  }
+  .link{
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .contact-form {
+    width: 100%;
+    margin-left: 0px;
+     
+  }
+  #email{
+    width: 280px;
+    margin-left: 8px;
+  }
+  #name{
+    width: 280px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 280px;
+    margin-left: 8px;
+
+  }
+  .link{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:216px){
+  .contact-form {
+    width: 60%;
+    margin-left: 40px;
+     
+  }
+  #email{
+    width: 90px;
+    margin-left: 8px;
+     
+  }
+  #name{
+    width: 90px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 90px;
+    margin-left: 8px;
+  }
+
+
+}
+@media only screen and (max-width:258px){
+  .contact-form {
+    width: 70%;
+    margin-left: 40px;
+     
+  }
+  #email{
+    width: 120px;
+    margin-left: 8px;
+     
+  }
+  #name{
+    width: 120px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 120px;
+    margin-left: 8px;
+  }
+
+
+}
+@media only screen and (max-width:266px){
+  .contact-form {
+    width: 80%;
+    margin-left: 30px;
+     
+  }
+  #email{
+    width: 125px;
+    margin-left: 8px;
+     
+  }
+  #name{
+    width: 125px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 120px;
+    margin-left: 8px;
+  }
+
+
+}
+@media only screen and (max-width:270px){
+  .contact-form {
+    width: 80%;
+    margin-left: 30px;
+     
+  }
+  #email{
+    width: 150px;
+    margin-left: 8px;
+     
+  }
+  #name{
+    width: 150px;  
+    margin-left: 8px;
+     
+  }
+  #message{
+    width: 150px;
+    margin-left: 8px;
+  }
+
+
+}
+
+

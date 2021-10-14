@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging</title>
+    <style>
+        .text{
+            display: block;
+        }
+        .hideText .text{
+            display: none;
+
+        }
+        .html{
+            display:none;
+
+        }
+        .ht .html{
+            display:block;
+        }
+        .css{
+            display: none;
+
+        }
+        .cs .css{
+            display: block;
+        }
+        .js{
+            display: none;
+
+        }
+        .javas .js{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="btn1">Next</button>
+        <button id="btn2">Next</button>
+        <button id="btn3">Next</button>
+        <div class="appContainer">
+            <p class="text">This is the default-text l hope this will sove the preblem am facing.</p>
+            <section class="html">
+                <p>First Quiz section.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum in voluptate iure,
+                    officia ut sunt saepe voluptates veritatis unde mollitia ipsam, voluptatem labore exercitationem. Enim cum
+                    voluptate qui aspernatur quaerat!</p>
+            </section>
+            
+            
+            <section class="css">
+                 
+                <p>Secont quiz section.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil fugiat quo obcaecati. Et
+                    eaque dolorum voluptatum natus temporibus officiis. Necessitatibus delectus harum accusamus omnis excepturi ut
+                    nulla expedita, corrupti fugiat?</p>
+            </section>
+            
+            
+            <section class="js">
+               
+                <p>The third quiz section.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quasi dignissimos eaque
+                    nobis unde aliquam quidem officia enim, id cupiditate itaque alias ipsum veniam, quos odit dolorum laborum in
+                    eius!</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    const btn=document.querySelector("#btn")
+    const appcontainer = document.querySelector(".appContainer")
+    const btn1 = document.querySelector("#btn1")
+    const btn2 = document.querySelector("#btn2")
+    const btn3 = document.querySelector("#btn3")
+
+    btn1.addEventListener("click", showSection1);
+    btn2.addEventListener("click", showSection2);
+    btn3.addEventListener("click", showSection3);
+
+    function showSection1() {
+            appcontainer.classList.add("hideText")
+            appcontainer.classList.add("ht")
+            appcontainer.classList.remove("cs")
+            appcontainer.classList.remove("javas")
+        }
+    function showSection2 (){
+         appcontainer.classList.add("hideText")
+        appcontainer.classList.add("cs")
+        appcontainer.classList.remove("ht")
+        appcontainer.classList.remove("javas")
+    }
+    function showSection3 (){
+         appcontainer.classList.add("hideText")
+        appcontainer.classList.add("javas")
+        appcontainer.classList.remove("ht")
+        appcontainer.classList.remove("cs")
+     }
+        
+
+</script>

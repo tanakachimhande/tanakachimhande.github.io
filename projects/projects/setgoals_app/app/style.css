@@ -1,0 +1,107 @@
+body{
+    background-image: url(todo.jpg);
+    background-repeat: no-repeat;
+}
+
+.app-container{
+    padding-top: 15px;
+}
+
+#bg-image{
+    height:180px; 
+    width:1068px;
+}
+
+.card{
+    width:px;
+    position: relative;
+}
+
+#refresh{
+    margin-left: 335px;
+    position:absolute;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px; 
+    cursor: pointer;
+    transition: all.3s;
+}
+
+#refresh:hover{
+    color: rebeccapurple;
+}
+
+.time{
+    position: absolute;
+    padding-top: 100px;
+    margin-left: px;
+    font-size: 25px;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.app-container{
+      margin-left:auto;
+      margin-right:auto;   
+}
+
+.list-input{
+    width: 500px;
+    margin-left:250px;
+    transition: all.3s;
+    padding: 8px;
+}
+
+.list-input:focus{
+    border-color: red;
+}
+
+#add{
+    font-weight: bold;
+    font-size: 27px;
+    cursor: pointer; 
+    transition: all.3s;    
+}
+
+#add:hover{
+    background-color: powderblue;
+}
+
+.form{
+    background-color: lightblue;
+     
+}
+
+.items{
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgray;
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+#table{
+    width: 1000px;
+    margin-left: 40px;
+}
+
+.card-title{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px green;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: lightslategray;
+}
+
+#thd{
+    background-color: lightsalmon;
+}
+
+.line{
+    color: rgb(190, 43, 43);
+    height: 2px;
+}
+ 

@@ -1,0 +1,77 @@
+
+body{
+    background-image: url(home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-top: 20px;
+    
+     
+}
+
+.calc-container{
+    border: 1px solid blue;
+    border-radius: 6px;
+    width: 300px;
+    padding-bottom: 5px;
+     margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(158, 94, 71);
+}
+.form{
+     text-align: center;
+}
+.answers{
+    color: darkblue;
+    font-family: cursive;
+    font-weight: bold;
+}
+.paragraph{
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+}
+#num1{
+    border-radius: 6px;
+    transition: all.5s;
+    box-shadow: none;
+    padding: 5px;
+}
+#num1:focus{
+    border-right-color: yellow;
+    border-left-color: yellow;
+    border-bottom-color: tomato;
+    border-top-color: tomato;
+}
+#num2{
+    border-radius: 6px;
+    transition: all.5s;
+    box-shadow: none;
+    padding: 5px;
+}
+#num2:focus{
+    border-right-color: rgb(30, 212, 173);
+    border-left-color: rgb(15, 230, 129);
+    border-bottom-color: rgb(33, 30, 189);
+    border-top-color: rgb(71, 120, 255);
+}
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 1px 1px red;
+    text-align: center;
+}
+.header{
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    transition: all.5s;
+}
+.header:hover{
+    transform: scale(2);
+    color: blue;
+}
+

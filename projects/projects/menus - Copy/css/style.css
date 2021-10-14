@@ -1,0 +1,78 @@
+
+body{
+    background-color:  rgb(231, 238, 231);
+}
+.descrp{
+    margin-left: 10px;
+    width: 200px;
+    text-align: justify;
+    font-family: monospace;
+}
+ 
+.menu-container{
+      text-align: center;
+      margin-left: px;
+}
+.media{
+    margin-left:auto;
+    padding-top: 70px;
+     
+}
+
+/* Hidding and showing different sections on the page */
+
+.clothe-section{
+    display: none;
+}
+.show-menu1 .clothe-section{
+    display: block;
+}
+.watch-section{
+    display: none;
+}
+.show-menu2 .watch-section{
+    display: block;
+}
+.hat-section{
+    display: none;
+}
+.show-menu3 .hat-section{
+    display: block;
+}
+.shoes-section{
+    display: none;
+}
+.show-menu4 .shoes-section{
+    display: block;
+}
+.default-text{
+    display: block;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: justify;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hide-defaultText .default-text{
+    display: none;
+}
+
+/*End of hidding and showing different sections on the page*/
+
+.btn{
+    border: 1px red;
+    border-radius: 6px;
+    background-color: rgb(241, 226, 226);
+    font-size: 20px;
+    font-weight: bold;
+}
+span{
+    color: rgb(139, 20, 20);
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+ 

@@ -1,0 +1,93 @@
+
+body{
+    background-image: url(bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cente;
+    background-attachment: fixed;
+     
+}
+.container{
+     text-align: center;
+     padding-top: 30px;
+}
+ 
+.par1{
+    display: none;
+    padding-top: 20px;
+
+}
+.show-par1 .par1{
+    display: block;
+}
+.par2{
+    display: none;
+}
+.show-par2 .par2{
+    display: block;
+}
+.par3{
+    display: none;
+}
+.show-par3 .par3{
+    display: block;
+}
+.par4{
+    display: none;
+}
+.show-par4 .par4{
+    display: block;
+}
+.par5{
+    display: none;
+}
+.show-par5 .par5{
+    display: block;
+}
+.sectiotn-persistance{
+    display: flex;
+    padding-top: 50px;
+    border:1px solid blue;
+    width: 430px;
+    border-radius: 10px;
+    margin-left: auto;
+     margin-right: auto;
+     background-color: darkorchid;
+     overflow: auto;
+}
+.qoute{
+    margin-left: 20px;
+}
+.image{
+    margin-left: 20px;
+}
+.warning{
+    text-align: center;
+    text-shadow: 1px 1px green;
+    color: darksalmon;
+    font-weight: bold;
+    text-align: justify;
+}
+#key{
+    width: 400px;
+    padding: 6px;
+}
+.topic{
+    color: red;
+    text-shadow: 1px 1px green;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.insructions-container{
+     padding-top: 20px;
+
+}
+.hdd{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(199, 44, 126);
+    text-shadow: 1px 1px;
+    font-weight: bold;
+}
+ 
